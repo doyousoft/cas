@@ -56,7 +56,7 @@ else
     waitRetVal=$?
 
     eval $prepCommand
-    eval $tasks
+    eval $tasks 2> /dev/null
     retVal=$?
 
     echo -e "***************************************************************************************"
